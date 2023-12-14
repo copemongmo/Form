@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title> FORM ĐĂNG KÝ THAM GIA</title>
+        <style type="text/css">
+            body{
+                background-image: url(https://image.dienthoaivui.com.vn/840x500,webp,q100/https://dashboard.dienthoaivui.com.vn/uploads/wp-content/uploads/2021/04/anh-nen-halloween-2.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% auto;
+            }
+            
+        </style>
+        <style>
+            body {
+                background-color: linen;
+            }
+            h1 {
+                color: 6666FF;
+                margin-left: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="" method="post">
+        <table width="500" border="1" cellpadding="4" align="center">
+            <tr>
+                <th colspan="2"><h1>ĐĂNG KÝ THÀNH VIÊN</h1></th>
+                
+
+            </tr>
+            <tr>
+                <td>Họ tên:</td>
+                <td>
+                    <input type="text" name="Họ tên" sixe="30" placeholder="Nhập họ tên">
+                </td>
+
+            </tr>
+            <tr>
+                <td>Tên đăng nhập:</td>
+                <td>
+                    <input type="text" name="Tên đăng nhập" sixe="30" placeholder="Nhập tên đăng nhập">
+                </td>
+
+            </tr>
+            <tr>
+                <td>Mật khẩu</td>
+                <td>
+                    <input type="password" name="pass" sixe="30" placeholder="Nhập mật khẩu">
+                </td>
+
+            </tr>
+            <tr>
+                <td>Nhập lại mật khẩu</td>
+                <td>
+                    <input type="password" name="repass" sixe="30" placeholder="Nhập lại mật khẩu">
+                </td>
+
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td>
+                   <label> <input type="radio" name="Giới tính"  id="Nam">Nam</label>
+                   <label> <input type="radio" name="Giới tính"id=Nữ>Nữ</label>
+                </td>
+
+            </tr>
+            <tr>
+                <td>Ngày sinh</td>
+                <td>
+                    <select name="day">
+                        <option value="ngay1">Ngày 1</option>
+                        <option value="ngay2">Ngày 2</option>
+                        <option value="ngay3">Ngày 3</option>
+                    </select>
+                    <select name="month">
+                        <option value="Thang1">Tháng 1</option>
+                        <option value="Thang2">Tháng 2</option>
+                        <option value="Thang3">Tháng 3</option>
+                    </select>
+                    <select name="year">
+                        <option value="nam2015">Năm 2015</option>
+                        <option value="nam2014">Năm 2014</option>
+                        <option value="nam2013">Năm 2013</option>
+                    </select>
+
+                </td>
+            </tr>
+            <tr>
+                <td>Hình</td>
+                <td>
+                    <input type="file" name="avarta" >
+                </td>
+            </tr>
+            <tr>
+                <td>Sở thích</td>
+                <td>
+                    <label><input type="checkbox" name="xemphim">Xem phim</label>
+                   <label> <input type="checkbox" name="thethao">Thể thao </label>
+                    <label><input type="checkbox" name="docsach">Đọc sách </label>
+                    <label><input type="checkbox" name="game">Game </label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="reset" name="reset" value="Reset">
+                    <input type="submit" name="ok" value="OK ">
+                </td>
+            </tr>
+        </table>
+        </form>
+    </body>
+</html>
